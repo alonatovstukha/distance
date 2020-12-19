@@ -257,6 +257,11 @@ body {
   display: flex;
   align-items: center;
   margin-right: 8px;
+  outline: none;
+}
+
+.tag:hover {
+  background: #d6d6d6;
 }
 
 .button-text {
@@ -286,6 +291,21 @@ body {
 .post-header .user {
   display: flex;
   flex-wrap: wrap;
+}
+
+.post-header-button {
+  border: none;
+  background-color: #fff;
+  outline: none;
+  display: flex;
+}
+
+.post-header-button svg {
+  fill: #595959;
+}
+
+.post-header-button:hover svg {
+  fill: #4240e3;
 }
 
 .post-info {
@@ -373,6 +393,19 @@ body {
   border: none;
   display: flex;
   align-items: center;
+  outline: none;
+}
+
+.post-button svg {
+  fill: #595959;
+}
+
+.post-button:hover span {
+  color: #4240e3;
+}
+
+.post-button:hover svg {
+  fill: #4240e3;
 }
 
 .post-button span {
